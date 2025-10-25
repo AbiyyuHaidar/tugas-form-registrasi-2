@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Registrasi Nilai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Form Registrasi Nilai</h1>
+    <form id="formNilai">
+      <label for="namaDepan">Nama Depan:</label>
+      <input type="text" id="namaDepan" placeholder="Masukkan nama depan" required>
+
+      <label for="namaBelakang">Nama Belakang:</label>
+      <input type="text" id="namaBelakang" placeholder="Masukkan nama belakang" required>
+
+      <label for="nilaiAngka">Nilai Angka:</label>
+      <input type="number" id="nilaiAngka" placeholder="Masukkan nilai (0-100)" required>
+
+      <button type="button" onclick="tampilkanLog()">Kirim</button>
+    </form>
+
+    <!-- Tempat menampilkan hasil -->
+    <div id="hasil" class="hasil"></div>
+  </div>
+
+  <script src="skrip.js"></script>
+</body>
+</html>

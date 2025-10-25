@@ -9,3 +9,5 @@ Ketika tombol **Kirim** ditekan, sistem akan menampilkan hasil berupa **Nama Len
 - Konversi Nilai Angka menjadi Nilai Huruf (A–E)
 - Tampilan hasil langsung di halaman web
 
+Berikut tampilan live preview nya
+https://abiyyuhaidar.github.io/tugas-form-registrasi-2/
